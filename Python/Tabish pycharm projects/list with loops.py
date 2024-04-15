@@ -1,0 +1,3 @@
+
+# here is a list of household items ..... now you can search for items that are going to finish...
+household = []

@@ -1,0 +1,22 @@
+# This program is to enter the students record
+# In this program variables are: Name, Address, Gender, Age, Hair Color, Shoe size and weight
+name = input("Enter the Name of Student: ")
+address = input("Enter the Address of Student: ")
+gender = input("Enter the Gender M)ale or F)emale: ")
+age = int(input("Enter the Age: "))
+age1 = input("Enter the Age1: ")
+hair_color = input("Enter the Hair Color of student: ")
+shoe_size = float(input("Enter the Shoe size: "))
+weight = float(input("Enter the weight of Student in Kilograms: "))
+
+print("Name of Student:", name)
+print("Address of Student:", address)
+print("Gender: ", gender)
+print("Age: ", age)
+print("Age1: ", age1)
+print("Hair Color: ", hair_color)
+print("Shoe Size of Student: ", shoe_size)
+print("Weight of Student in Kg: ", weight)
+print("Type of Age: ", type(age))
+print("Type of Age1: ", type(age1))
+print("Type of Shoe size: ", type(shoe_size))
